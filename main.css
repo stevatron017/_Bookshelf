@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: bisque;
+    font-family: cursive;
+    background-color: #080818;
+    width: 100vw;
+    text-align: center;
+}
+
+body {
+    background-color: olive;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/wallpaper.png);
+
+}
+
+.books {
+    color: bisque
+}
+
+.book-shelf {
+    display: flex; 
+    color: white; 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.shelf-image {
+    width: 80vw;
+}
+
+.box {
+    /* justify-content: center;
+    width: 90vw; 
+    background-color: #29170f;
+    height: 20px; 
+    align-items: center; */
+    
+}
+
+.shelf {
+    /* width: 90vw; 
+    height: 90vw; 
+    background-color: #3d2216;
+} */
